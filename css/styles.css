@@ -1,11 +1,12 @@
 body {
-    width: 980px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: 'Lato', sans-serif;
-    /*background-color: #b8b8b8;*/
     background-color: #fff;
+    color: #565d65;
 }
+
+
+
+
 
 /* 
  * HEADER
@@ -14,23 +15,7 @@ body {
 header {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-#header-name {
-    font-size: 60px;
-    font-weight: normal;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-}
-
-#header-subhead {
-    font-size: 40px;
-    font-weight: normal;
-    text-align: right;
-    margin-top: 0px;
-    text-transform: uppercase;
 }
 
 #horizontal-line {
@@ -38,9 +23,15 @@ header {
     height: 1px;
     border: 0;
     border-top: 3px solid #757575;
-    margin: 1em 1em;
+    margin: 1em 0em;
     padding: 0;
 }
+
+#kappa-reality {
+    text-align: right;
+}
+
+
 
 /* 
  * MAIN
@@ -82,5 +73,79 @@ a:active {
 }
 
 .round-image {
-	border-radius: 5%;
+    border-radius: 5%;
+}
+
+
+
+
+/*
+ * NEXUS 5 MODE 
+ */
+
+@media screen and (max-width: 360px) {
+    #header-name {
+        font-size: 25px;
+    }
+
+    #header-subhead {
+        font-size: 15px;
+    }
+
+    #logo-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    #horizontal-line {
+        margin: 0.5em 0em;
+    }
+}
+
+
+/*
+ * iPAD MODE 
+ */
+
+@media screen and (min-width: 361px) and (max-width: 979px) {
+    #header-name {
+        font-size: 50px;
+    }
+
+    #header-subhead {
+        font-size: 40px;
+    }
+}
+
+
+/*
+ * DESKTOP MODE 
+ */
+
+@media screen and (min-width: 980px) {
+    body {
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #logo-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    #header-name {
+        font-size: 60px;
+        font-weight: normal;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+
+    #header-subhead {
+        font-size: 40px;
+        font-weight: normal;
+        text-align: right;
+        margin-top: 0px;
+        text-transform: uppercase;
+    }
 }
