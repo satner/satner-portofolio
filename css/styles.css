@@ -4,10 +4,6 @@ body {
     color: #565d65;
 }
 
-
-
-
-
 /* 
  * HEADER
  **/
@@ -27,11 +23,22 @@ header {
     padding: 0;
 }
 
-#kappa-reality {
+#header-section {
     text-align: right;
 }
 
+#header-name {
+    margin-bottom: 0px;
+}
 
+#header-subhead {
+    margin-top: 0px;
+}
+
+.edited-headers {
+    text-transform: uppercase;
+    font-weight: normal;
+}
 
 /* 
  * MAIN
@@ -51,33 +58,35 @@ header {
 
 .github-article {
     margin-top: 10px;
+    flex-basis: 33.3%;
 }
 
 a {
     display: block;
     text-decoration: none;
     padding-top: 5px;
-    color: #303030;
+    color: #16181b;
 }
 
 a:hover {
-    color: #8c8787;
+    color: #171a20;
 }
 
 a:visited {
-    color: green;
+    color: #141a25;
 }
 
 a:active {
-    color: yellow;
+    color: #1d283d;
 }
 
 .round-image {
     border-radius: 5%;
 }
 
-
-
+.projects-header {
+    text-align: center;
+}
 
 /*
  * NEXUS 5 MODE 
@@ -100,7 +109,14 @@ a:active {
     #horizontal-line {
         margin: 0.5em 0em;
     }
+
+    #logo-image {
+        width: 100px;
+        height: 100px;
+    }
 }
+
+
 
 
 /*
@@ -115,7 +131,14 @@ a:active {
     #header-subhead {
         font-size: 40px;
     }
+
+    #logo-image {
+        width: 190px;
+        height: 190px;
+    }
 }
+
+
 
 
 /*
@@ -136,16 +159,9 @@ a:active {
 
     #header-name {
         font-size: 60px;
-        font-weight: normal;
-        margin-bottom: 0px;
-        text-transform: uppercase;
     }
 
     #header-subhead {
         font-size: 40px;
-        font-weight: normal;
-        text-align: right;
-        margin-top: 0px;
-        text-transform: uppercase;
     }
 }
