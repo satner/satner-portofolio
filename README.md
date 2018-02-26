@@ -10,4 +10,4 @@ You will be provided with a design mockup as a PDF-file and must replicate that 
 The design mockup is located *[here](https://github.com/satner/satner.github.io/blob/master/design-mockup-portfolio.pdf)*.
 
 ## Evaluation
-Your project will be evaluated by a Udacity Code Reviewer according to the *[Build a Portfolio Project Rubric](https://review.udacity.com/#!/rubrics/45/view)*. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass.
+Your project will be evaluated by a Udacity Code Reviewer according to the *Build a Portfolio Project Rubric*. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass.
